@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1BD573F1FAABCC300ADBA75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD573E1FAABCC300ADBA75 /* AppDelegate.m */; };
+		F1BD57421FAABCC300ADBA75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD57411FAABCC300ADBA75 /* ViewController.m */; };
+		F1BD57451FAABCC300ADBA75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BD57431FAABCC300ADBA75 /* Main.storyboard */; };
+		F1BD57471FAABCC300ADBA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1BD57461FAABCC300ADBA75 /* Assets.xcassets */; };
+		F1BD574A1FAABCC300ADBA75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1BD57481FAABCC300ADBA75 /* LaunchScreen.storyboard */; };
+		F1BD574D1FAABCC300ADBA75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD574C1FAABCC300ADBA75 /* main.m */; };
+		F1BD57571FAABCC300ADBA75 /* KTNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD57561FAABCC300ADBA75 /* KTNoteTests.m */; };
+		F1BD57621FAABCC300ADBA75 /* KTNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1BD57611FAABCC300ADBA75 /* KTNoteUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1BD57531FAABCC300ADBA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BD57321FAABCC300ADBA75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BD57391FAABCC300ADBA75;
+			remoteInfo = KTNote;
+		};
+		F1BD575E1FAABCC300ADBA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1BD57321FAABCC300ADBA75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BD57391FAABCC300ADBA75;
+			remoteInfo = KTNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1BD573A1FAABCC300ADBA75 /* KTNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BD573D1FAABCC300ADBA75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1BD573E1FAABCC300ADBA75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1BD57401FAABCC300ADBA75 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1BD57411FAABCC300ADBA75 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1BD57441FAABCC300ADBA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1BD57461FAABCC300ADBA75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1BD57491FAABCC300ADBA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1BD574B1FAABCC300ADBA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BD574C1FAABCC300ADBA75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1BD57521FAABCC300ADBA75 /* KTNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BD57561FAABCC300ADBA75 /* KTNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNoteTests.m; sourceTree = "<group>"; };
+		F1BD57581FAABCC300ADBA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1BD575D1FAABCC300ADBA75 /* KTNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1BD57611FAABCC300ADBA75 /* KTNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTNoteUITests.m; sourceTree = "<group>"; };
+		F1BD57631FAABCC300ADBA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1BD57371FAABCC300ADBA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD574F1FAABCC300ADBA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD575A1FAABCC300ADBA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1BD57311FAABCC300ADBA75 = {
+			isa = PBXGroup;
+			children = (
+				F1BD573C1FAABCC300ADBA75 /* KTNote */,
+				F1BD57551FAABCC300ADBA75 /* KTNoteTests */,
+				F1BD57601FAABCC300ADBA75 /* KTNoteUITests */,
+				F1BD573B1FAABCC300ADBA75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1BD573B1FAABCC300ADBA75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD573A1FAABCC300ADBA75 /* KTNote.app */,
+				F1BD57521FAABCC300ADBA75 /* KTNoteTests.xctest */,
+				F1BD575D1FAABCC300ADBA75 /* KTNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1BD573C1FAABCC300ADBA75 /* KTNote */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD573D1FAABCC300ADBA75 /* AppDelegate.h */,
+				F1BD573E1FAABCC300ADBA75 /* AppDelegate.m */,
+				F1BD57401FAABCC300ADBA75 /* ViewController.h */,
+				F1BD57411FAABCC300ADBA75 /* ViewController.m */,
+				F1BD57431FAABCC300ADBA75 /* Main.storyboard */,
+				F1BD57461FAABCC300ADBA75 /* Assets.xcassets */,
+				F1BD57481FAABCC300ADBA75 /* LaunchScreen.storyboard */,
+				F1BD574B1FAABCC300ADBA75 /* Info.plist */,
+				F1BD574C1FAABCC300ADBA75 /* main.m */,
+			);
+			path = KTNote;
+			sourceTree = "<group>";
+		};
+		F1BD57551FAABCC300ADBA75 /* KTNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD57561FAABCC300ADBA75 /* KTNoteTests.m */,
+				F1BD57581FAABCC300ADBA75 /* Info.plist */,
+			);
+			path = KTNoteTests;
+			sourceTree = "<group>";
+		};
+		F1BD57601FAABCC300ADBA75 /* KTNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1BD57611FAABCC300ADBA75 /* KTNoteUITests.m */,
+				F1BD57631FAABCC300ADBA75 /* Info.plist */,
+			);
+			path = KTNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1BD57391FAABCC300ADBA75 /* KTNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BD57661FAABCC300ADBA75 /* Build configuration list for PBXNativeTarget "KTNote" */;
+			buildPhases = (
+				F1BD57361FAABCC300ADBA75 /* Sources */,
+				F1BD57371FAABCC300ADBA75 /* Frameworks */,
+				F1BD57381FAABCC300ADBA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTNote;
+			productName = KTNote;
+			productReference = F1BD573A1FAABCC300ADBA75 /* KTNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1BD57511FAABCC300ADBA75 /* KTNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BD57691FAABCC300ADBA75 /* Build configuration list for PBXNativeTarget "KTNoteTests" */;
+			buildPhases = (
+				F1BD574E1FAABCC300ADBA75 /* Sources */,
+				F1BD574F1FAABCC300ADBA75 /* Frameworks */,
+				F1BD57501FAABCC300ADBA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BD57541FAABCC300ADBA75 /* PBXTargetDependency */,
+			);
+			name = KTNoteTests;
+			productName = KTNoteTests;
+			productReference = F1BD57521FAABCC300ADBA75 /* KTNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1BD575C1FAABCC300ADBA75 /* KTNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1BD576C1FAABCC300ADBA75 /* Build configuration list for PBXNativeTarget "KTNoteUITests" */;
+			buildPhases = (
+				F1BD57591FAABCC300ADBA75 /* Sources */,
+				F1BD575A1FAABCC300ADBA75 /* Frameworks */,
+				F1BD575B1FAABCC300ADBA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1BD575F1FAABCC300ADBA75 /* PBXTargetDependency */,
+			);
+			name = KTNoteUITests;
+			productName = KTNoteUITests;
+			productReference = F1BD575D1FAABCC300ADBA75 /* KTNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1BD57321FAABCC300ADBA75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "筑梦师--Winston";
+				TargetAttributes = {
+					F1BD57391FAABCC300ADBA75 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					F1BD57511FAABCC300ADBA75 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1BD57391FAABCC300ADBA75;
+					};
+					F1BD575C1FAABCC300ADBA75 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1BD57391FAABCC300ADBA75;
+					};
+				};
+			};
+			buildConfigurationList = F1BD57351FAABCC300ADBA75 /* Build configuration list for PBXProject "KTNote" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1BD57311FAABCC300ADBA75;
+			productRefGroup = F1BD573B1FAABCC300ADBA75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1BD57391FAABCC300ADBA75 /* KTNote */,
+				F1BD57511FAABCC300ADBA75 /* KTNoteTests */,
+				F1BD575C1FAABCC300ADBA75 /* KTNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1BD57381FAABCC300ADBA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD574A1FAABCC300ADBA75 /* LaunchScreen.storyboard in Resources */,
+				F1BD57471FAABCC300ADBA75 /* Assets.xcassets in Resources */,
+				F1BD57451FAABCC300ADBA75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD57501FAABCC300ADBA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD575B1FAABCC300ADBA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1BD57361FAABCC300ADBA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD57421FAABCC300ADBA75 /* ViewController.m in Sources */,
+				F1BD574D1FAABCC300ADBA75 /* main.m in Sources */,
+				F1BD573F1FAABCC300ADBA75 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD574E1FAABCC300ADBA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD57571FAABCC300ADBA75 /* KTNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1BD57591FAABCC300ADBA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1BD57621FAABCC300ADBA75 /* KTNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1BD57541FAABCC300ADBA75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BD57391FAABCC300ADBA75 /* KTNote */;
+			targetProxy = F1BD57531FAABCC300ADBA75 /* PBXContainerItemProxy */;
+		};
+		F1BD575F1FAABCC300ADBA75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1BD57391FAABCC300ADBA75 /* KTNote */;
+			targetProxy = F1BD575E1FAABCC300ADBA75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1BD57431FAABCC300ADBA75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BD57441FAABCC300ADBA75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1BD57481FAABCC300ADBA75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1BD57491FAABCC300ADBA75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1BD57641FAABCC300ADBA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1BD57651FAABCC300ADBA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1BD57671FAABCC300ADBA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8845BT5W3;
+				INFOPLIST_FILE = KTNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1BD57681FAABCC300ADBA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8845BT5W3;
+				INFOPLIST_FILE = KTNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1BD576A1FAABCC300ADBA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8845BT5W3;
+				INFOPLIST_FILE = KTNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTNote.app/KTNote";
+			};
+			name = Debug;
+		};
+		F1BD576B1FAABCC300ADBA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8845BT5W3;
+				INFOPLIST_FILE = KTNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KTNote.app/KTNote";
+			};
+			name = Release;
+		};
+		F1BD576D1FAABCC300ADBA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8845BT5W3;
+				INFOPLIST_FILE = KTNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTNote;
+			};
+			name = Debug;
+		};
+		F1BD576E1FAABCC300ADBA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8845BT5W3;
+				INFOPLIST_FILE = KTNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Winston.KTNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KTNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1BD57351FAABCC300ADBA75 /* Build configuration list for PBXProject "KTNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD57641FAABCC300ADBA75 /* Debug */,
+				F1BD57651FAABCC300ADBA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BD57661FAABCC300ADBA75 /* Build configuration list for PBXNativeTarget "KTNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD57671FAABCC300ADBA75 /* Debug */,
+				F1BD57681FAABCC300ADBA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BD57691FAABCC300ADBA75 /* Build configuration list for PBXNativeTarget "KTNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD576A1FAABCC300ADBA75 /* Debug */,
+				F1BD576B1FAABCC300ADBA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1BD576C1FAABCC300ADBA75 /* Build configuration list for PBXNativeTarget "KTNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1BD576D1FAABCC300ADBA75 /* Debug */,
+				F1BD576E1FAABCC300ADBA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1BD57321FAABCC300ADBA75 /* Project object */;
+}
